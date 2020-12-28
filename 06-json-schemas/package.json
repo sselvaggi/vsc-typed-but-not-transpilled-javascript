@@ -1,7 +1,7 @@
 {
   "name": "04-schemas",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "readme.js",
   "license": "MIT",
   "dependencies": {
     "json-schema-to-typescript": "^9.1.1"

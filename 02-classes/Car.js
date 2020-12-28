@@ -6,7 +6,7 @@ module.exports = class Car {
    /**
     * @return {number}
     */
-   getRandonValue() {
-      return Math.random()
+   honk() {
+      return 'Beep!'
    }
- }
+}
