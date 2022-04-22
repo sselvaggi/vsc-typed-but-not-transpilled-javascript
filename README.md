@@ -1,33 +1,20 @@
-# JSDoc + Typescript
+# VSC Typed (but not transpilled) Javascript
 
-Types definitions help to structure the code giving better autocomplete in code editors like VSC. 
-
-We don't need to compile or rename file extensions.
-
-We can import type definitions from .ts files, even from 3rd party libraries inside our project.
-
-It never affects Javascript execution. You are responsible to make validations in runtime
-
-## Tutorial
-
-Dowload this project and read each readme.js files inside every subfolder.
-https://codesandbox.io/s/suspicious-cartwright-ln8ts?file=/README.md
-
-## Troubleshooting
-
-### It works only inside comment blocks: 
+Thanks to VSC we can use almost every Typescript feature directly inside Javascript files thanks to JSDoc annotations
 
 ```javascript
-/** like this */
-
 /** 
  * like this 
  */
 
 /* not like this */
-
-// not like this 
 ```
+
+[Update 2022: Microsoft proposed to implement static typing on runtime using annotations ](https://devblogs.microsoft.com/typescript/a-proposal-for-type-syntax-in-javascript/)
+
+Types definitions help to structure the code giving better autocomplete in code editors like VSC. 
+
+We can import type definitions from .ts files, even from 3rd party libraries inside our project.
 
 ### Import types
 
@@ -37,7 +24,7 @@ https://codesandbox.io/s/suspicious-cartwright-ln8ts?file=/README.md
  */
 ```
 
-### Casting javascript value
+### Setting variable type
 
 ```javascript
 const x = /** @type {MyType} */ (value)
