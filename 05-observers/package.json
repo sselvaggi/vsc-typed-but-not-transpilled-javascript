@@ -1,0 +1,7 @@
+{
+  "name": "06-schemas",
+  "version": "1.0.0",
+  "main": "readme.js",
+  "license": "MIT",
+  "type": "module"
+}

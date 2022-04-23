@@ -1,0 +1,12 @@
+{
+  "name": "06-schemas",
+  "version": "1.0.0",
+  "main": "readme.js",
+  "license": "MIT",
+  "dependencies": {
+    "json-schema-to-typescript": "^9.1.1"
+  },
+  "scripts": {
+    "build": "npx json2ts -i schemas/ > types.d.ts; echo 'export as namespace types;' >> types.d.ts "
+  }
+}
