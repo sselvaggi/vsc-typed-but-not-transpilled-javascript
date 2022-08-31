@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "esModuleInterop": true,
+    "checkJs": true,
+    "module": "ES2022",
+    "target": "ES6",
+    "typeRoots": ["src/types"],
+    "lib": ["DOM"],
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "jsx": "preserve"
+  },
+  "exclude": ["node_modules", "./src/_ui"]
+}
